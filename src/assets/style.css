@@ -278,7 +278,7 @@
      }
 
      .Manage {
-         width: 354px;
+         width: 330px;
          height: 180px;
         display: flex;
         align-items: center;
@@ -292,7 +292,7 @@
         
     }
     .content{
-        width: 350px;
+        width: 333px;
         height: 600px;
         margin: 0 auto;
     }
@@ -309,7 +309,7 @@
     }
 
     .card-one{
-        width: 350px;
+        width: 333px;
         height: 514.04px;
         margin: 0 auto;
         padding: 27.61px 50.64px 27.61px 65.47px;;
@@ -331,7 +331,7 @@
     }
 
      .consol .subs {
-        width: 280px;
+        width: 250px;
      }
 
     .consol .subs p{
@@ -342,7 +342,7 @@
     }
 
     .card-two{
-        width: 350px;
+        width: 333px;
         height: 514.04px;
         margin: 0 auto;
         padding:27.61px 50.64px 27.61px 65.47px;;
@@ -365,7 +365,7 @@
     }
 
     .transacts .subs{
-        width: 280px;
+        width: 250px;
     }
 
     .transacts .subs p{

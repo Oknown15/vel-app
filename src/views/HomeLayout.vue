@@ -243,7 +243,8 @@ export default {
     <div class="text-center streamline my-5">
         <h5>Ready to streamline your subscriptions and save time? Join us today and <br /> manage all your services in
             one
-            place!</h5>
+            place!
+        </h5>        
     </div>
     <div>
         <div class="d-flex justify-content-center my-5">
@@ -251,4 +252,5 @@ export default {
             <button class="btn shadow btns text-light" ref=''>Get Started</button>
         </div>
     </div>
+    
 </template>
