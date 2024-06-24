@@ -1,7 +1,6 @@
 <script>
 import NavbarComp from '@/components/NavbarComp.vue';
 import DashImage from '@/assets/images/dashboard23.svg';
-import DashImageTwo from '@/assets/images/dashboard24.svg';
 import ArrowOne from '@/assets/images/arrow-one.svg';
 import TimeManage from '@/assets/icons/Vector.svg';
 import Organized from '@/assets/icons/tasked-filled.svg';
@@ -12,7 +11,6 @@ export default {
     data() {
         return {
             Dash: DashImage,
-            DashTwo: DashImageTwo,
             ArrowOne: ArrowOne,
             ArrowTwo: ArrowTwo,
             Clock: TimeManage,
