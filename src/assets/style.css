@@ -184,7 +184,7 @@
 
  }
 
-.Card-one{
+.clock-section{
     width: 410.72px;
     height: 340.57px;
     gap: 0px;
@@ -194,7 +194,7 @@
     border: 1.28px solid #813BDB4D;
     padding: 34.7px;}
 
-.Card-two {
+.todo-section {
     width: 410.72px;
     height: 340.57px;
     gap: 0px;
@@ -204,7 +204,7 @@
     padding: 34.7px;
     border: 1.28px solid #813BDB4D;
 }
-.Card-three {
+.checker-section {
     width: 410.72px;
     height: 340.57px;
     gap: 0px;
@@ -375,15 +375,15 @@
 
     }
 
-    .Card-one{
+    .clock-section{
         width: 300px;
         margin: 0  auto;
     }
-    .Card-two{
+    .todo-section{
         width: 300px;
         margin: 0  auto;
     }
-    .Card-three{
+    .checker-section{
         width: 300px;
         margin: 0  auto;
     }

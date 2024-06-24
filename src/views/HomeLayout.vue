@@ -121,7 +121,7 @@ export default {
         </div>
         <div class="container">
             <div class="d-lg-flex d-block gap-4">
-                <div class="Card-one">
+                <div class="clock-section">
                     <div class="text-center">
                         <div class="clock mx-auto d-flex align-items-center justify-content-center">
                             <img :src="Clock" alt="clock-icon">
@@ -135,7 +135,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="Card-two my-lg-0 my-4">
+                <div class="todo-section my-lg-0 my-4">
                     <div class="text-center">
                         <div class="todo mx-auto d-flex align-items-center justify-content-center">
                             <img :src="Todo" alt="">
@@ -149,7 +149,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="Card-three">
+                <div class="checker-section">
                     <div class="text-center">
                         <div class="checker mx-auto d-flex align-items-center justify-content-center">
                             <img :src="Checked" alt="">
