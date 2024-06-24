@@ -1,5 +1,6 @@
 <script>
 import NavbarComp from '@/components/NavbarComp.vue';
+import Cards from '@/components/CardSects.vue';
 import DashImage from '@/assets/images/dashboard23.svg';
 import ArrowOne from '@/assets/images/arrow-one.svg';
 import TimeManage from '@/assets/icons/Vector.svg';
@@ -20,7 +21,8 @@ export default {
         }
     },
     components: {
-            NavbarComp
+            NavbarComp,
+            Cards
     },
     methods: {
        
@@ -75,30 +77,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="Cards my-5 d-md-block d-block gap-5 justify-content-between">
-                <div class="card-one">
-                    <div class="dashboard-two d-flex align-items-center justify-content-center">
-                        <img :src="Dash" alt="second-dashboard">
-                    </div>
-                    <div class="text-lg-center consol ">
-                        <h3>Consolidated Billing</h3>
-                        <div class="subs ">
-                            <p>Manage all your subscriptions effortlessly with our unified dashboard.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-two my-lg-0 my-5">
-                    <div class="dashboard-three d-flex align-items-center justify-content-center">
-                        <img :src="Dash" alt="">
-                    </div>
-                    <div class="text-lg-center transacts ">
-                        <h3>Protected Transactions</h3>
-                        <div class="subs">
-                            <p>Manage all your subscriptions effortlessly with our unified dashboard.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Cards/>
         </div>
         <div>
             <div class=" position-absolute end-0 arrow-one">
