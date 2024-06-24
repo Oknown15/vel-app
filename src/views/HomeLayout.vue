@@ -1,12 +1,12 @@
 <script>
 import NavbarComp from '@/components/NavbarComp.vue';
-const DashImage = require('@/assets/images/dashboard23.svg');
-const DashImageTwo = require('@/assets/images/dashboard24.svg');
-const ArrowOne = require('@/assets/images/arrow-one.svg');
-const TimeManage = require('@/assets/icons/Vector.svg');
-const Organized = require('@/assets/icons/tasked-filled.svg');
-const Checker = require('@/assets/icons/check.svg');
-const ArrowTwo = require('@/assets/images/arrow-two.svg');
+import DashImage from '@/assets/images/dashboard23.svg';
+import DashImageTwo from '@/assets/images/dashboard24.svg';
+import ArrowOne from '@/assets/images/arrow-one.svg';
+import TimeManage from '@/assets/icons/Vector.svg';
+import Organized from '@/assets/icons/tasked-filled.svg';
+import Checker from '@/assets/icons/check.svg';
+import ArrowTwo from '@/assets/images/arrow-two.svg';
 import '@/assets/style.css';
 export default {
     data() {
