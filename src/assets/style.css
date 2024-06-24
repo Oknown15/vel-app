@@ -1,0 +1,528 @@
+
+
+.main {
+     background-image: url(../assets/images/Background.png);
+     width: 100% !important;
+     height: 657px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .title {
+     width: 665px;
+ }
+
+ .title h1 {
+     line-height: 62.4px;
+     font-size: 48px;
+     font-weight: 400 !important;
+     color: #E6D8F8;
+ }
+
+ .title .paragraph {
+     color: #E6D8F8;
+     letter-spacing: 5%;
+     line-height: 34.8px;
+     font-weight: 300;
+ }
+
+ #innertitle {
+     color: #813BDB !important;
+ }
+
+ .input {
+     width: 200px;
+     border-top-right-radius: 0%;
+     border-bottom-right-radius: 0%;
+ }
+
+ .btns {
+     width: 154px;
+     height: 55px;
+     border-top-left-radius: 0%;
+     border-bottom-left-radius: 0%;
+     background-color: #713DB4;
+     font-size: 14px;
+     line-height: 17.5px;
+     font-weight: 700;
+ }
+
+ .features h1 {
+     font-weight: 500;
+     font-size: 30.61px;
+     line-height: 30px;
+     color: #1A0C2C;
+ }
+
+ .content {
+     width: 100%;
+     height: 514.04px;
+     background-image: url('../assets/images/section2img.jpeg');
+     border-radius: 25.51px;
+ }
+
+ .content div:first-child h1 {
+     font-size: 51.02px;
+     line-height: 66.33px;
+     color: #FBFBFB;
+     font-weight: 500;
+ }
+
+
+
+ .Manage  p {
+     font-weight: 300 !important;
+     font-size: 25.51px !important;
+     line-height: 32.65px !important;
+     letter-spacing: 8% !important;
+ }
+
+ .started {
+     width: 156.89px;
+     height: 51.51px;
+ }
+
+ .card-one{
+    background-image: url('../assets/images/section2img.jpeg');
+    width: 591.85px;
+    height: 514.04px;
+    padding: 67.4px 64.64px 66.61px 65.47px;
+    gap: 0px;
+    border-radius: 25px;
+    opacity: 0px;
+    margin: 0 auto;
+
+ }
+
+ .dashboard-two img{
+    width: 368.63px;
+    height: 264.04px;
+    gap: 0px;
+    opacity: 0px;
+
+ }
+ .consol{
+    color: #FBFBFB;
+ }
+
+ .consol h3{
+    font-size: 25.51px;
+    font-weight: 500;
+    line-height: 31.89px;
+
+ }
+
+ .consol .subs p{
+    font-size: 20.41px;
+    font-weight: 300;
+    line-height: 26.12px;
+    letter-spacing: 0.08em;
+
+ }
+  .card-two {
+      background-image: url('../assets/images/section2img.jpeg');
+      width: 591.85px;
+      height: 514.04px;
+      padding: 67.4px 64.64px 66.61px 65.47px;
+      gap: 0px;
+      border-radius: 25px;
+      opacity: 0px;
+      margin: 0 auto;
+
+  }
+
+ .dashboard-three img {
+     width: 368.63px;
+     height: 264.04px;
+     gap: 0px;
+     opacity: 0px;
+
+ }
+
+ .transacts {
+     color: #FBFBFB;
+ }
+
+ .transacts h3 {
+     font-size: 25.51px;
+     font-weight: 500;
+     line-height: 31.89px;
+
+ }
+
+ .transacts .subs p {
+     font-size: 20.41px;
+     font-weight: 300;
+     line-height: 26.12px;
+     letter-spacing: 0.08em;
+
+ }
+
+ .benefits div:first-child{
+    width: 167.1px;
+    height: 35.73px;
+    margin: 0 auto;
+    padding: 5.86px 37.13px 5.86px 37.13px;
+    gap: 9.77px;
+    border-radius: 9.77px 9.77px 0px 0px ;
+    border: 1.28px 0px 0px 0px;
+    opacity: 0px;
+    border: 1.28px solid #1A0C2C
+ }
+
+ .benefits div:first-child h6{
+    color: #1A0C2C;
+    font-size: 19.54px;
+    line-height: 24.43px;
+ }
+
+ .benefits div:last-child h3{
+    font-size: 45.92px;
+    font-weight: 500;
+    line-height: 57.4px;
+
+ }
+
+.Card-one{
+    width: 410.72px;
+    height: 340.57px;
+    gap: 0px;
+    border-radius: 25.51px;
+    border: 1.28px;
+    opacity: 0px;
+    border: 1.28px solid #813BDB4D;
+    padding: 34.7px;}
+
+.Card-two {
+    width: 410.72px;
+    height: 340.57px;
+    gap: 0px;
+    border-radius: 25.51px;
+    border: 1.28px;
+    opacity: 0px;
+    padding: 34.7px;
+    border: 1.28px solid #813BDB4D;
+}
+.Card-three {
+    width: 410.72px;
+    height: 340.57px;
+    gap: 0px;
+    border-radius: 25.51px;
+    border: 1.28px;
+    opacity: 0px;
+    padding: 34.7px;
+    border: 1.28px solid #813BDB4D;
+}
+
+.clock{
+    width: 89.29px;
+    height: 89.29px;
+    background-color: #FDF2D4;
+    border-radius: 50%;
+}
+.easyM h3{
+    font-size: 25.51px;
+    line-height: 31.89px;
+    color: #1A0C2C;
+}
+
+.Modify p{
+    font-size: 20.41px;
+    font-weight: 300;
+    line-height: 25.51px;
+    color: #1A0C2C;
+}
+
+.todo {
+    width: 89.29px;
+    height: 89.29px;
+    background-color: #FDF2D4;
+    border-radius: 50%;
+}
+
+.stayO h3 {
+    font-size: 25.51px;
+    line-height: 31.89px;
+    color: #1A0C2C;
+}
+
+.checker {
+    width: 89.29px;
+    height: 89.29px;
+    background-color: #FDF2D4;
+    border-radius: 50%;
+}
+
+.secP h3 {
+    font-size: 25.51px;
+    line-height: 31.89px;
+    color: #1A0C2C;
+}
+ @media screen and (max-width: 992px) {
+     .title {
+         width: 300px;
+     }
+
+     .title h1 {
+         font-size: 40px;
+     }
+
+     .dashOne{
+        width: 307px;
+        margin: 0 auto;
+     }
+
+     .dashOne img {
+         width: 300px  !important;
+     }
+
+     .Manage {
+         width: 354px;
+         height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+     }
+
+      .Manage  p {
+        font-size: 20px !important;
+        line-height: 25.15px !important;
+        
+    }
+    .content{
+        width: 350px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .unif h1{
+        font-size: 35px !important;
+    }
+    .started{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        position: absolute;
+        left: 10px;
+    }
+
+    .card-one{
+        width: 350px;
+        height: 514.04px;
+        margin: 0 auto;
+        padding: 27.61px 50.64px 27.61px 65.47px;;
+        gap: 0px;
+        border-radius: 25px;
+        opacity: 0px;
+    }
+    .dashboard-two img{
+    width: 315px;
+    height: 264.04px;
+
+    }
+
+    .consol h3{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 31.89px;
+
+    }
+
+     .consol .subs {
+        width: 280px;
+     }
+
+    .consol .subs p{
+        font-size: 20.41px;
+        font-weight: 300;
+    
+
+    }
+
+    .card-two{
+        width: 350px;
+        height: 514.04px;
+        margin: 0 auto;
+        padding:27.61px 50.64px 27.61px 65.47px;;
+        gap: 0px;
+        border-radius: 25px;
+        opacity: 0px;
+    }
+
+     .dashboard-three img{
+    width: 315px;
+    height: 264.04px;
+
+    }
+
+    .transacts h3{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 31.89px;
+
+    }
+
+    .transacts .subs{
+        width: 280px;
+    }
+
+    .transacts .subs p{
+        font-size: 20.41px;
+        font-weight: 300;
+    
+
+    }
+
+    .Card-one{
+        width: 300px;
+        margin: 0  auto;
+    }
+    .Card-two{
+        width: 300px;
+        margin: 0  auto;
+    }
+    .Card-three{
+        width: 300px;
+        margin: 0  auto;
+    }
+
+    .arrow-one img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .clock{
+        width: 60px;
+        height: 60px;
+    }
+
+    .clock img{
+        width: 40px;
+        height: 35px;
+    }
+
+    .todo{
+        width: 60px;
+        height: 60px;
+    }
+
+    .todo img{
+        width: 40px;
+        height: 35px;
+    }
+
+    .checker{
+        width: 60px;
+        height: 60px;
+    }
+
+    .checker img{
+        width: 40px;
+        height: 35px;
+    }
+
+     .benefits div:last-child h3{
+        font-size: 30px;
+        line-height: 40px;
+    }  
+     .arrow-two img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .accordion-button{
+        border-radius: 25.51px !important;
+    }
+    .accordion-header{
+        line-height: 26px;
+    }
+
+    .Accordion{
+        border: 1.28px solid #813BDB4D;
+    }
+
+ }
+
+ @media screen and (min-width:1200px) {
+    .dashOne img{
+        width: 584.2px  !important;
+        height: 367.36px;
+    }
+     .Manage {
+     width: 489.81px !important;
+     height: 254.51px;
+ }
+
+ .Cards{
+    display: flex !important;
+ }
+
+
+  .arrow-one img {
+      width: 232.05px;
+      height: 204.44px;
+  }
+   .arrow-two img {
+      width: 232.05px;
+      height: 204.44px;
+  }
+
+  .accordion-button{
+    border-radius: 25.51px !important;
+  }
+
+  .Accordion{
+    gap: 12rem;
+    border: 1.28px solid #813BDB4D;
+    width: 989.82px;
+    height: 77.92px;
+    margin: 0 auto;
+  }
+  .accordion-header h3{
+    font-weight: 300;
+    font-size: 25.51px;
+    line-height: 31.89px;
+  }
+
+  .freq h3{
+    font-size: 45.92px;
+    line-height: 57.4px;
+  }
+
+  .streamline h5{
+    font-weight: 400;
+    font-size: 25.51px;
+    line-height: 31.89px;
+    color: #1A0C2C;
+  }
+ }
+
+ @media screen and (min-width:500px) {
+      .started{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        position: relative;
+        right: 50px;
+    }
+
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+     .dashOne img{
+        width: 504.2px;
+        height: 367.36px;
+    }
+
+    .Manage{
+        width: 380px;
+    }
+    .Cards{
+        display: block;
+    }
+ }
+
+ 
