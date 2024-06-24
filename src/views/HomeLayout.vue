@@ -61,7 +61,7 @@ export default {
             <div class="">
                 <div class="row  text-lg-start ">
                     <div class="dashOne col-lg-7 col-7 pt-lg-4">
-                        <img :src='Dash' alt="">
+                        <img :src='Dash' alt="first-dashboard">
                     </div>
                     <div class=" col-lg-5 ">
                         <div class="Manage text-lg-start ">
@@ -81,7 +81,7 @@ export default {
         <div class="Cards my-5 d-md-block d-block gap-5 justify-content-between">
             <div class="card-one">
                 <div class="dashboard-two d-flex align-items-center justify-content-center">
-                    <img :src="Dash" alt="">
+                    <img :src="Dash" alt="second-dashboard">
                 </div>
                 <div class="text-lg-center consol ">
                     <h3>Consolidated Billing</h3>
@@ -105,7 +105,7 @@ export default {
     </div>
     <div>
         <div class=" position-absolute end-0 arrow-one">
-            <img :src="ArrowOne" alt="">
+            <img :src="ArrowOne" alt="arrow-illustration">
         </div>
         <div class="d-flex  align-items-center justify-content-center">
             <div class=" text-center">
@@ -124,7 +124,7 @@ export default {
                 <div class="Card-one">
                     <div class="text-center">
                         <div class="clock mx-auto d-flex align-items-center justify-content-center">
-                            <img :src="Clock" alt="">
+                            <img :src="Clock" alt="clock-icon">
                         </div>
                         <div class="easyM">
                             <h3 class="fw-medium ">Easy Management</h3>
@@ -166,7 +166,7 @@ export default {
             </div>
         </div>
         <div class=" position-relative start-0 arrow-two">
-            <img :src="ArrowTwo" alt="">
+            <img :src="ArrowTwo" alt="arrowTwo-illustration">
         </div>
     </div>
     <div>
