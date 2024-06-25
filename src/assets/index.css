@@ -1,0 +1,140 @@
+.footer{
+    background-image: url(../assets/images/footer.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+}
+
+.digi p{
+    font-family: Lexend;
+    font-size: 15.31px;
+    font-weight: 300;
+    line-height: 26.63px;
+    color: #1A0C2C;
+}
+
+.digi{
+    width: 266.59px;
+}
+
+.Links li a {
+    font-family: Lexend;
+    text-decoration: none;
+    color: #1A0C2C;
+    font-size: 15.31px;
+    line-height: 19.13px;
+}
+
+.aboutUs h2{
+    font-family: Lexend;
+    font-weight: 500;
+    font-size: 20.41px;
+    line-height: 35.51px;
+    letter-spacing: 5%;
+    color: #1A0C2C;
+}
+
+.Informat h2 {
+    font-family: Lexend;
+    font-weight: 500;
+    font-size: 20.41px;
+    line-height: 35.51px;
+    letter-spacing: 5%;
+    color: #1A0C2C;
+}
+
+.Contacts h2 {
+    font-family: Lexend;
+    font-weight: 500;
+    font-size: 20.41px;
+    line-height: 35.51px;
+    letter-spacing: 5%;
+    color: #1A0C2C;
+}
+
+.start{
+    width: 179.85px;
+    height: 70.15px;
+    padding: 24.24px 36.86px 23.92px 36.99px;
+    border-radius: 12.76px;
+    font-size: 17.86px;
+    font-weight: 700;
+    line-height: 22.32px;
+    columns: #111111;
+}
+
+.StartBtn{
+    margin-top: 8rem;
+}
+
+.Policy{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.Policy div a{
+    font-family: Lexend;    text-decoration: none;
+    font-weight: 400;
+    font-size: 20.41px;
+    line-height: 35.51px;
+    letter-spacing: 5%;
+    color: #1A0C2C;
+}
+
+    .socials div img{
+        width: 20px !important;
+    }
+
+@media screen and (max-width:992px) {
+
+    .vel img{
+        width: 120px;
+        height: 60px;
+    }
+    .digi p{
+        font-size: 14px;
+    }
+    .socials div img{
+        width: 15px !important;
+    }
+
+    .VelHeader{
+        margin: 15px;
+    }
+    .AboutLinks{
+        margin: 15px;
+    }
+    .InformatLinks{
+        margin: 15px;
+    }
+    .ContactsLinks{
+        margin: 15px;
+    }
+    .start{
+        width: 130px;
+        height: 50px;
+        padding: 0 !important;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .StartBtn{
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        margin-top: 1.25rem;
+    }
+    .Policy div a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 5%;
+        color: #1A0C2C;
+    }
+    .Policy{
+        padding: 10px !important;
+    }
+
+}

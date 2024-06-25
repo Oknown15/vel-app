@@ -7,6 +7,8 @@ import TimeManage from '@/assets/icons/Vector.svg';
 import Organized from '@/assets/icons/tasked-filled.svg';
 import Checker from '@/assets/icons/check.svg';
 import ArrowTwo from '@/assets/images/arrow-two.svg';
+import StringOne from '@/assets/images/StringOne.svg';
+import StringTwo from '@/assets/images/stringTwo.svg';
 import '@/assets/style.css';
 export default {
     data() {
@@ -16,8 +18,9 @@ export default {
             ArrowTwo: ArrowTwo,
             Clock: TimeManage,
             Todo: Organized,
-            Checked: Checker
-            
+            Checked: Checker,
+            FirstString: StringOne,
+            SecondString: StringTwo
         }
     },
     components: {
@@ -43,9 +46,17 @@ export default {
                             consolidated billing, and personalized recommendations tailored to your interests.</p>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center my-5">
+                <div class="d-flex justify-content-center my-5 m-lg-0 m-3">
                     <input type="email" name="" class="form-control  input" placeholder="Enter your email" id="">
-                    <button class="btn btns text-light" ref=''>Get Started</button>
+                    <button class="btn btn-warning btns text-black" ref=''>Get Started</button>
+                </div>
+            </div>
+            <div class="d-flex d-md-none d-lg-flex my-lg-5  align-items-center justify-content-between">
+                <div>
+                    <img :src="FirstString" alt="">
+                </div>
+                <div>
+                    <img :src="SecondString" alt="">
                 </div>
             </div>
         </div>
@@ -71,7 +82,7 @@ export default {
                                     all your services and payments in one organized place.</p>
                             </div>
                             <div class="started ">
-                                <button type="button" class="text-dark btn btn-light" href="">Get Started</button>
+                                <button type="button" class="text-dark btn btn-warning" href="">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -219,15 +230,13 @@ export default {
         </div>
         <div class="text-center streamline my-5">
             <h5>Ready to streamline your subscriptions and save time? Join us today and <br /> manage all your services
-                in
-                one
-                place!
+                in one place!
             </h5>
         </div>
         <div>
-            <div class="d-flex justify-content-center my-5">
+            <div class="d-flex justify-content-center my-5 m-lg-0 m-3">
                 <input type="email" name="" class="form-control shadow  input" placeholder="Enter your email" id="">
-                <button class="btn shadow btns text-light" ref=''>Get Started</button>
+                <button class="btn btn-warning shadow btns " ref=''>Get Started</button>
             </div>
         </div>
     </div>

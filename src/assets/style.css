@@ -14,6 +14,7 @@
  }
 
  .title h1 {
+    font-family: Lexend;
      line-height: 62.4px;
      font-size: 48px;
      font-weight: 400 !important;
@@ -21,6 +22,7 @@
  }
 
  .title .paragraph {
+    font-family: Lexend;
      color: #E6D8F8;
      letter-spacing: 5%;
      line-height: 34.8px;
@@ -42,13 +44,15 @@
      height: 55px;
      border-top-left-radius: 0%;
      border-bottom-left-radius: 0%;
-     background-color: #713DB4;
+    font-family: Lexend;
      font-size: 14px;
      line-height: 17.5px;
      font-weight: 700;
+     color: #111111;
  }
 
  .features h1 {
+    font-family: Lexend;
      font-weight: 500;
      font-size: 30.61px;
      line-height: 30px;
@@ -63,6 +67,7 @@
  }
 
  .content div:first-child h1 {
+    font-family: Lexend;
      font-size: 51.02px;
      line-height: 66.33px;
      color: #FBFBFB;
@@ -72,6 +77,7 @@
 
 
  .Manage  p {
+    font-family: Lexend;
      font-weight: 300 !important;
      font-size: 25.51px !important;
      line-height: 32.65px !important;
@@ -81,6 +87,15 @@
  .started {
      width: 156.89px;
      height: 51.51px;
+ }
+
+ .started button{
+    width:156.89px;
+    height: 51.51px;
+    padding: 12.76px;
+    gap: 12.76px;
+    border-radius: 12.76px;
+
  }
 
  .card-one{
@@ -103,6 +118,7 @@
 
  }
  .consol{
+    font-family: Lexend;
     color: #FBFBFB;
  }
 
@@ -114,6 +130,7 @@
  }
 
  .consol .subs p{
+    font-family: Lexend;
     font-size: 20.41px;
     font-weight: 300;
     line-height: 26.12px;
@@ -145,6 +162,7 @@
  }
 
  .transacts h3 {
+    font-family: Lexend;
      font-size: 25.51px;
      font-weight: 500;
      line-height: 31.89px;
@@ -152,6 +170,7 @@
  }
 
  .transacts .subs p {
+    font-family: Lexend;
      font-size: 20.41px;
      font-weight: 300;
      line-height: 26.12px;
@@ -172,12 +191,14 @@
  }
 
  .benefits div:first-child h6{
+    font-family: Lexend;
     color: #1A0C2C;
     font-size: 19.54px;
     line-height: 24.43px;
  }
 
  .benefits div:last-child h3{
+    font-family: Lexend;
     font-size: 45.92px;
     font-weight: 500;
     line-height: 57.4px;
@@ -222,12 +243,14 @@
     border-radius: 50%;
 }
 .easyM h3{
+    font-family: Lexend;
     font-size: 25.51px;
     line-height: 31.89px;
     color: #1A0C2C;
 }
 
 .Modify p{
+    font-family: Lexend;
     font-size: 20.41px;
     font-weight: 300;
     line-height: 25.51px;
@@ -242,6 +265,7 @@
 }
 
 .stayO h3 {
+    font-family: Lexend;
     font-size: 25.51px;
     line-height: 31.89px;
     color: #1A0C2C;
@@ -255,11 +279,15 @@
 }
 
 .secP h3 {
+    font-family: Lexend;
     font-size: 25.51px;
     line-height: 31.89px;
     color: #1A0C2C;
 }
  @media screen and (max-width: 992px) {
+    .main{
+        height: 780px;
+    }
      .title {
          width: 300px;
      }
@@ -305,7 +333,12 @@
         align-items: center;
         justify-content: right;
         position: absolute;
-        left: 10px;
+    }
+    .started button{
+        width:120px;
+        height: 40px;
+        padding: 0px;
+        border-radius: 12.76px;
     }
 
     .card-one{
@@ -433,6 +466,7 @@
     }
 
     .accordion-button{
+        font-family: Lexend;
         border-radius: 25.51px !important;
     }
     .accordion-header{
@@ -440,6 +474,7 @@
     }
 
     .Accordion{
+        font-family: Lexend;
         border: 1.28px solid #813BDB4D;
     }
 
@@ -505,7 +540,7 @@
         align-items: center;
         justify-content: right;
         position: relative;
-        right: 50px;
+        right: 4px;
     }
 
  }

@@ -6,8 +6,15 @@
         <div class=''>
           <img :src='img' class='img-fluid Logo' alt='VelLogo'>
         </div>
-        <div id='nav'>
-          <ul class='list-unstyled d-lg-flex align-items-center m-0 justify-content-center gap-5 '>
+        <button data-bs-toggle="collapse" data-bs-target="#nav" aria-expanded="false"  class=' btn btn-black d-lg-none d-flex'>
+            <i  class='text-light fs-4 fas fa-bars'></i>
+        </button>
+        <div   id='nav' class="navbar-collapse d-lg-block collapse ">
+          <button aria-expanded="true" data-bs-toggle="collapse" data-bs-target="#nav"  class='btn  d-lg-none d-block position-absolute left-0 dash'>
+              <h1 class='text-light'>—</h1>
+            </button>
+          <ul class='list-unstyled d-lg-flex d-block align-items-center m-0 justify-content-center gap-5 '>
+            
             <div>
               <router-link id='Link' class='text-light' to="/">Home</router-link>
             </div>
@@ -38,12 +45,13 @@ export default {
     }
 }
 </script>
-<style scoped>
+<style lang="css" scoped>
   .Logo{
     width: 179.77px;
     height: 87.37px;
   }
   ul a{
+    font-family: Lexend;
     text-decoration: none !important;
   }
   ul #Link:hover{
@@ -57,7 +65,32 @@ export default {
 
   @media screen and (max-width: 992px) {
     #nav{
-      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #111111;
+      width: 100%;
+      height: 100vh;
+      right: 0;
+      padding-top: 100px;
+      transition: 1s ease;
+    }
+
+    #nav #Link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+      }
+
+    .login{
+        margin: 10px auto;
+        
+    }
+
+    .dash{
+      top: 20px !important;
+      right: 30px;
     }
 
     .Logo{
@@ -72,6 +105,13 @@ export default {
 
     .navigation {
       padding: 10px !important;
+    }
+  }
+
+  @media screen and (min-width:1200px) {
+    .collapse{
+      position: absolute;
+      right: 50px;
     }
   }
 </style>
